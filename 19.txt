@@ -18,7 +18,7 @@
     <script type="text/javascript" src="http://www.stone365.com/templates/stone/js/onlinejoin.js" language="javascript"></script>
 </head>
 <body>
-    <!--login开始-->
+    <!--login开始rrrr-->
 <div class="site">
   <div class="site960">
     <div class="site-nav">
