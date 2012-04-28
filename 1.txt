@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+ <meta http-equiv="x-UA-compatible" content="IE=EmulateIE7" />
+<meta name="keywords"content="石材资讯,石材新闻,石材动态,石材知识,石材展会,机械资讯中国石材网,石材网,信息中心,石材市场,石材价格,石材的价格,石材供应,石材求购,石材机械" />
+<meta name="description" content="石材资讯,石材新闻,石材动态,石材知识,石材展会,机械资讯中国石材网,石材网,信息中心,石材市场,石材价格,石材的价格,石材供应,石材求购,石材机械" />
+<title>石材资讯|石材新闻-中国石材网</title>
+<link href="http://www.stone365.com/templates/stone/css/font.css" rel="stylesheet" type="text/css" />
+<link href="http://www.stone365.com/templates/stone/css/bottom.css" rel="stylesheet"  type="text/css" />
+<link href="http://www.stone365.com/templates/stone/css/head.css" rel="stylesheet"  type="text/css" />
+<link href="http://www.stone365.com/templates/stone/css/help.css" rel="stylesheet"  type="text/css" />
+<script type="text/javascript" src="http://www.stone365.com/common/js/base.js" language="javascript"></script>
+<script type="text/javascript" src="http://www.stone365.com/templates/stone/js/login.js" language="javascript"></script>
+<script type="text/javascript" src="http://www.stone365.com/templates/stone/js/validate.js" language="javascript"></script>
+</head>
+<body>
+<!--login开始-->
+<div class="site">
+  <div class="site960">
+    <div class="site-nav">
+      <ul class="quick-login">
+        <h3 id="login">
+        	您好，欢迎来到中国石材网！
+            <a class="blue" href="http://www.stone365.com/login.aspx">[会员登录]</a> 
+            <a class="blue" href="http://www.stone365.com/register.aspx">[免费注册]</a></h3>
+        <h3 id="logined" style="display:none;">
+        	欢迎您，<font id="uname"></font> |
+            <a id="ucenter" href="http://www.stone365.com/User/Index.aspx">我的用户中心</a>|
+            <a href="http://www.stone365.com/logout.aspx">[退出]</a>
+            <font id="logined_user" style="display:none;">企业用户相关内容</font>
+            <font id="logined_person" style="display:none;">个人用户相关内容</font></h3>
+      </ul>
+      <UL class=quick-menu>
+        <LI class="home"><A class="red" href="http://www.stone365.com/offer/caigou.aspx">采购中心</A><span class="home_img"></span></LI>
+        <LI><A href="http://www.stone365.com/about//services_web01.aspx">诚石通</A></LI>
+        <LI class="services menu-item last">
+          <div class=menu> <A id="menu-hd" class=menu-hd href="#" target=_top onmouseover="Top_Div_Over()" onmouseout="Top_Div_Out()">网站导航<B></B></A>
+            <div id="menu-bd" class=menu-bd style="WIDTH: 300px; HEIGHT: auto; _width: auto;" onmouseover="Top_Div_Over()" onmouseout="Top_Div_Out()">
+              <div class=menu-bd-panel>
+                <DL>
+                  <DT><A href="/news/">信息中心</A></DT>
+                  <DD><A href="/news/channel-1.aspx">行业动态</A> 
+                  <A href="/news/channel-39.aspx">协会资讯</A> 
+                  <A href="/news/channel-2.aspx">企业新闻</A> 
+                  <A href="/news/channel-20.aspx">国际新闻</A> 
+                  <A href="/news/channel-32.aspx">国内新闻</A> 
+                  <A href="/news/channel-19.aspx">风云人物</A> 
+                  <A href="/news/maintain.aspx">机械养护</A> 
+                  <A href="/news/machine.aspx">石材机械</A> 
+                  <A href="/news/channel-52.aspx">技术前沿</A> 
+                  <A href="/news/channel-9.aspx">政策法规</A>
+                  <A href="/news/channel-53.aspx">行业标准</A> 
+                  <A href="/news/channel-38.aspx">产品导购</A>
+                  <A href="/news/channel-30.aspx">本网动态</A></DD>
+                </DL>
+                <DL>
+                  <DT><A href="/offer/">交易</A></DT>
+                  <DD><A href="/search/seller_search-offer---------.aspx">供应信息</A> <A href="/search/buyer_search-offer---------.aspx">求购信息</A> <A href="/search/seller_search-service---------.aspx">合作信息</A> <A href="/search/seller_search-investment---------.aspx">招商代理</A> <A href="/offer/price--------.aspx">价格信息</A> </DD>
+                </DL>
+                <DL>
+                  <DT><A href="/exhibition/">展会</A></DT>
+                  <DD><A href="/search/seller_search-exhibition-2--------.aspx">国内展会</A> <A href="/search/seller_search-exhibition-1--------.aspx">国外展会</A> <A href="/news/channel-40.aspx">展会知识</A></DD>
+                </DL>
+                <DL>
+                  <DT><A href="/service/">服务中心</A></DT>
+                  <DD><A href="/about/ad01.aspx">广告服务</A> <A href="/about/help01_01.aspx">帮助中心</A> <A href="http://bbs.c-bm.com/index.asp?boardid=45" target="_blank">论坛</A></DD>
+                </DL>
+                <!--<DL class=last>
+                  <DD><STRONG style="FONT-WEIGHT: bold"><A href="#">更多内容</A></STRONG></DD>
+                </DL>-->
+              </div>
+            </div>
+          </div>
+        </LI>
+        <LI class=cart><A href="/about/services_web11.aspx" rel=nofollow>客服中心</A></LI>
+        <LI class=favorite><a style="cursor:hand" onclick="this.style.behavior='url(#default#homepage)'";this.sethomepage('http://www.stone365.com/')>设为首页</a></LI>
+        <LI class=favorite><a href="#" onClick="window.external.AddFavorite('http://www.stone365.com/', '中国石材网');">加入收藏</a></LI>
+      </UL>
+    </div>
+  </div>
+</div>
+<script>Login2();</script>
+<!--login结束-->
+<!--标志&搜索开始-->
+<div class="h_nav">
+  <div class="h_lef"><span><a href="/"  title="中国石材网"><img src="http://www.stone365.com/templates/stone/images/logo.png" width="136" height="60" border="0" /></a></span>
+    <p>持续解读客户需求，不断提升服务价值！</p>
+  </div>
+  <div class="h_rig">
+    <div class="div_wid">
+      <div id="navxx">
+        <ul>
+          <li id="navxx1" class="hover" onclick="xy_SelectSearchMenu(this,'offer','sell');"><a href="javascript:void(0);" >供应</a></li>
+          <li id="navxx2" onclick="xy_SelectSearchMenu(this,'offer','buy');"><a href="javascript:void(0);" target="_self">求购</a></li>
+          <li id="navxx3" onclick="xy_SelectSearchMenu(this,'price','');"><a href="javascript:void(0);" target="_self">价格</a></li>
+          <li id="navxx4" onclick="xy_SelectSearchMenu(this,'news','');"><a href="javascript:void(0);" target="_self">资讯</a></li>
+          <li id="navxx5" onclick="xy_SelectSearchMenu(this,'company','sell');"><a href="javascript:void(0);" target="_self">黄页</a></li>
+          <li id="navxx6" onclick="xy_SelectSearchMenu(this,'exhibition','');"><a href="javascript:void(0);" target="_self">展会</a></li>
+          <li id="navxx7" onclick="xy_SelectSearchMenu(this,'pic','');"><a href="javascript:void(0);" target="_self">图库</a></li>
+          <input type="hidden" id="xy_FlagName" value="offer"/>
+		  <input type="hidden" id="xy_InfoType" value="sell"/>
+        </ul>
+      </div>
+      <div class="fwrx "><span class="orange">服务咨询热线：</span>18958055006 </div>
+    </div>
+    <div class="search_nav">
+      <div id="con_one_1" class="search_kuang" >
+          <div class="imput_kuang">
+            <input type="text" id="txtsearchkey" name="sch_text" class="iText" onkeydown="KeyPrgo();"/>
+          </div>
+          <div class="subbt"  onclick="xy_search();"/>搜 索</div>
+          <div class="clr"></div>
+        <div class="remen">
+        <a href="/search/seller_search-offer--大理石-------.aspx">大理石</a> 
+        <a href="/search/seller_search-offer--花岗岩-------.aspx">花岗岩</a> 
+        <a href="/search/seller_search-offer--砂岩-------.aspx">砂岩</a> 
+        <a href="/search/seller_search-offer--石材-------.aspx">石材</a> 
+        <a href="/search/seller_search-offer--人造石-------.aspx">人造石</a> 
+        <a href="/search/seller_search-offer--文化石-------.aspx">文化石</a>
+        <a href="/search/seller_search-offer--石材养护-------.aspx">石材养护</a> 
+        <a href="/search/seller_search-offer--机械-------.aspx">机械</a> </div>
+      </div>
+      <div class="kuang_right"><a href="http://www.stone365.com/search/advanced_search.aspx" target="_blank">[高级搜索]</a></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    setSearchCurrent();
+    function KeyPrgo(){
+     if(event.keyCode==13) {
+       document.getElementById("txtsearchkey").blur();   
+       xy_search();
+    }
+}
+</script>
+<!--标志&搜索结束-->
+<!--导航开始-->
+<div class="Nav">
+  <div class="Nav-lef">
+    <div class="Nav-rig">
+      <div class="Nav-top">
+        <ul>
+          <li><span><img src="http://www.stone365.com/templates/
+stone/images/nav_bg_14.gif" width="2" height="24" /></span><a href="/" 
+target="_self">首 页</a></li>
+          <li><span><img src="http://www.stone365.com/templates/
+stone/images/nav_bg_14.gif" width="2" height="24" /></span><a 
+href="/news" target="_parent">信息中心</a></li>
+          <li><span><img src="http://www.stone365.com/templates/
+stone/images/nav_bg_14.gif" width="2" height="24" /></span><a 
+href="/offer" target="_parent">交易中心</a></li>
+          <li><span><img src="http://www.stone365.com/templates/
+stone/images/nav_bg_14.gif" width="2" height="24" /></span><a 
+href="/exhibition" target="_parent">展会中心</a></li>
+          <li><span><img src="http://www.stone365.com/templates/
+stone/images/nav_bg_14.gif" width="2" height="24" /></span><a 
+href="/company/index.aspx" target="_parent">企业黄页</a></li>
+          <li><a href="/pic" target="_parent">石材图库</a></li>
+   <li><span>
+                            <img src="http://www.stone365.com/templates/stone/images/nav_bg_14.gif" width="2"
+                                height="24" /></span> <a href="/job" target="_parent">人才频道</a></li>
+          <li class="hover"><a href="/about">服务中心</a></li>
+        </ul>
+      </div>
+      <div class="Nav-bot">
+        <p>服务中心</p>
+        <div><span><a class="white" href="index.aspx">会员服务
+</a>&nbsp;&nbsp;&nbsp;&nbsp;<a  class="white"href="ad01.aspx">广告宣传
+</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="white" href="help01_01.aspx">帮助中心
+</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="white" href="Links.aspx">友情链接
+</a><BR />
+        </span></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航结束-->
+<!--content开始-->
+<div class="help_top"><li><img src="http://www.stone365.com/templates/stone/images/help_tit1.png" width="136" height="26"></img></li></div>
+<div class="news_con">
+  <!--div class="news_for"></div-->
+  <DIV class=sidebar>
+<div class="lx_left">
+    <div class="fwzx">
+    <div class="fwbgs"></div>
+    <div class="fwcon">
+    <h1>诚石通会员服务</h1>
+    <div class="adtp"><img src="http://www.stone365.com/templates/stone/images/kfzx.gif" width="238" height="134" /></div>
+    <ul>
+    <li><a href="services_web01.aspx">诚石通会员服务内容</a></li>
+    <li><a href="services_web02.aspx">诚石通会员独特优势</a></li>
+    <li><a href="services_web03.aspx">加入诚石通会员的步骤</a></li>
+    <li><a href="services_web04.aspx">申请诚石通会员</a></li>
+    </ul>
+    </div>
+    <div class="fwbge"></div>
+    </div>
+    <div class="fwzx">
+      <div class="fwbgs"></div>
+      <div class="fwcon">
+      <h1>广告宣传服务</h1>
+         <ul>
+        <li><a href="services_web05.aspx">网站广告</a></li>
+        <li><a href="services_web06.aspx">网刊广告</a></li>
+        </ul>
+      </div>
+      <div class="fwbge"></div>
+    </div>
+    <div class="fwzx">
+      <div class="fwbgs"></div>
+     <div class="fwcon"><h1>企业网站建设</h1>
+      <ul>
+        <li><a href="services_web07.aspx">网站设计</a></li>
+        <li><a href="services_web08.aspx">成功案例</a></li>
+        </ul>
+     </div>
+      <div class="fwbge"></div>
+    </div>
+    <div class="bzad"><a href="http://www.stone365.com/about/help01_01.aspx"><img src="http://www.stone365.com/templates/stone/images/bzadd.gif"/></a></div>
+    <div class="fwzx">
+      <div class="fwbgs"></div>
+     <div class="fwcon"><h1>联系我们</h1>
+     <ul>
+        <li><a href="services_web09.aspx">关于浙江中建网络</a></li>
+        <li><a href="services_web10.aspx">关于中国石材网</a></li>
+        <li><a href="services_web11.aspx">联系我们</a></li>
+        </ul>
+     </div>
+      <div class="fwbge"></div>
+    </div>
+  </div>
+<DIV class=HackBox></DIV><!-- from vmcommon --><!-- end vmcommon --></DIV>
+ <div class="help_right">
+ <div class="con2">
+      <h3>一、电子商务服务</h3>
+      <p>1、中国石材网会员拥有独立的二级域名网站，实现自助建站。365天&times;24小时产品展销平台，包括：企业简介、产品展示、荣誉
+        证书、工程案例、品牌介绍、联系方式等内容，并拥有会员专用标志，突出展示企业形象。</p>
+      <p>2、优先发布和显示各类产品信息、包括供应、求购、招商、合作等商业信息，让客户首先看到你，在线留言，每一条信息均有
+        会员专用标志，提高商务成功率。</p>
+      <p>3、加入中国石材网&quot;石材搜索平台&quot;、&quot;石材产品图库&quot;，搜索结果排序靠前，让客户能轻松找到。 </p>
+      <p>4、加入中国石材网&quot;石材黄页数据库&quot;，行业目录排名靠前。</p>
+      <p></p>
+      <h3>二、互联网信息服务</h3>
+      <p></p>
+      <p>5、浏览石材行业新闻、市场动态、最新价格行情等商务信息，获取详细资料。</p>
+      <p>6、浏览重要价值石材行业报告、市场研究报告、流行资讯信息和统计数据等。</p>
+      <p>7、定期收到企业所订制的信息服务：供求信息、新品报告、专利技术、海外市场等。</p>
+      <p></p>
+      <h3>三、企业品牌推广</h3>
+      <p></p>
+      <p>8、享有中国石材网&quot;推荐企业&quot;栏目文字链接宣传一周。</p>
+      <p>9、享有在中国石材网上自助发布企业最新动态，技术专利等。</p>
+      <p>10、享有石材行业相关展会的优先报道权，包括参展图片，文字报道等</p>
+      <p></p>
+      <h3>四、其它</h3>
+      <p></p>
+      <p>11、 免费得到赠送的中国石材网网刊志或报纸。 </p>
+      <p>12、 利用中国石材网人才市场，开展在线招聘，建立企业人才库。</p>
+    </div>
+ </div>
+</div>
+<div class="clr"></div>
+<div class="clr"></div>
+<div class="bottom">
+  <p><span class="blue_one">兄弟网站：</span> 
+    <a href="http://www.c-bm.com/" target="_blank" class="bota">中国建材网</a>&nbsp;
+    <a href="http://www.ccement.com/" target="_blank" class="bota">中国水泥网</a>&nbsp;
+    <a href="http://www.cementchina.net/" target="_blank" class="bota">cement</a>&nbsp;
+    <a href="http://www.cbmnet.cn/employ.aspx" target="_blank" class="bota">中国水泥网人才频道</a>&nbsp;
+    <a href="http://bbs.ccement.com/" target="_blank" class="bota">中国水泥论坛</a>&nbsp;
+    <a href="http://www.taoci365.com/" target="_blank" class="bota">中国陶瓷网</a>&nbsp;
+    <a href="http://www.concrete365.com/" target="_blank" class="bota">中国混凝土与水泥制品网</a>&nbsp;
+    <a href="http://www.cbtia.com/" target="_blank" class="bota">中国砖瓦网</a>&nbsp;
+    <a href="http://www.cieema.cn/" target="_blank" class="bota">中国绝热节能材料网</a>
+    <A href="http://baijia.ccement.com/" target="_blank">水泥百家</A>
+    <br />
+  <a href="/about/help05_02.aspx">关于中国石材网</a> 
+  <a href="/about/services_web11.aspx"> 联系我们 </a> 
+  <a href="/about/ad01.aspx"> 广告服务</a> 
+  <a href="/about/links.aspx"> 友情链接 </a> 
+  <a href="/about/help01_01.aspx"> 网站指南</a> 
+  <a href="/about/help05_01.aspx"> 关于我们</a> 
+  <a href="/about/index.aspx"> 诚石通服务</a> <br />
+    中国石材网 版权所有@2004-2011 本站法律顾问：永鼎律师事务所<br />
+    经营许可证编号：027202001042000202　ICP证：浙B2-20040232<br />
+    <script language="javascript" type="text/javascript" src="http://js.users.51.la/16524.js"></script><noscript>
+    <a href="http://www.51.la/?16524" target="_blank"><img alt="我要啦免费统计" src="http://img.users.51.la/16524.asp" style="border:none" /></a>
+    </noscript><img src="http://www.chinacements.com/images/biaoshi1.gif" alt="" /><img src="http://www.ccement.com/images/xinyong.gif" alt="信用评价AA级信用企业" /><a href="http://www.pingpinganan.gov.cn/web/index.aspx" target="_blank"><img height="53" src="http://www.stone365.com/common/images/gt.gif" width="53" border="0" /></a><a href="http://www.pingpinganan.gov.cn/web/index.aspx" target="_blank"><img height="53" src="http://www.stone365.com/common/images/pp.gif" width="33" border="0" /></a><a href="http://www.pingpinganan.gov.cn/web/index.aspx" target="_blank"><img height="53" src="http://www.stone365.com/common/images/aa.gif" width="33" border="0" /></a>
+    </p>
+</div>
+</body>
+</html>

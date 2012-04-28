@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="description" content="石材资讯-石材行业资讯-石材动态—中国石材网,打造石材行业最大的石材资讯,石材新闻媒体板块,中国石材网" />
+    <meta name="keywords" content="石材行业,石材协会,石材企业,石材价格,石材养护翻新,石材展会,石材机械,石材雕刻机,石材切割机,石材干挂,大理石,进口大理石,天然大理石,花岗石,米黄,砂岩,人造石,蘑菇石,文化石,石材贸易,石材供购,国内外石材,中国石材网" />
+    <title>石材资讯-石材行业资讯-石材动态—中国石材网_中国石材网</title>
+    <link href="http://www.stone365.com/templates/stone/css/tradelist.css" rel="stylesheet"
+        type="text/css" />
+    <link href="http://www.stone365.com/templates/stone/css/trade.css" rel="stylesheet"
+        type="text/css" />
+<link href="http://www.stone365.com/templates/stone/css/font.css" rel="stylesheet" type="text/css" />
+<link href="http://www.stone365.com/templates/stone/css/bottom.css" rel="stylesheet"  type="text/css" />
+<link href="http://www.stone365.com/templates/stone/css/head.css" rel="stylesheet"  type="text/css" />
+<script type="text/javascript" src="http://www.stone365.com/common/js/base.js" language="javascript"></script>
+<script type="text/javascript" src="http://www.stone365.com/templates/stone/js/login.js" language="javascript"></script>
+<script type="text/javascript" src="http://www.stone365.com/templates/stone/js/validate.js" language="javascript"></script>
+<script type="text/javascript" src="http://www.stone365.com/templates/stone/js/index.js" language="javascript"></script>
+    <script type="text/javascript" src="http://www.stone365.com/common/js/date.js" language="javascript"></script>
+    <script type="text/javascript" src="http://www.stone365.com/templates/stone/js/search.js"
+        language="javascript"></script>
+    <script type="text/javascript" src="http://www.stone365.com/templates/stone/js/onlinejoin.js"
+        language="javascript"></script>
+    <script type="text/javascript" language="javascript">
+    function searchPt()
+     {
+        if(($F("ptPrice1") != ""&&isNaN($F("ptPrice1"))) || ($F("ptPrice2") != ""&&isNaN($F("ptPrice2"))))
+        {
+            alert("价格请输入数字！");
+            return;
+        }
+       var url ="price-";
+       url +=$F("offerTypeId");
+       url+="-";
+       url += $F("ptPrice1");
+       url+="-";
+        url += $F("ptPrice2");
+        url+="-";
+       url += $F("areaIdByOffer");
+       url+="-";
+       url += $F("ptTime");
+         url+="-";
+         if($F("ptKey") != "输入关键字"){
+       url += $F("ptKey");
+       }else{
+        url+="";
+       }
+       url+="-";
+       if($("checkbox").checked)
+       {
+        url+="1";
+       }else{
+        url+="0";
+       }
+       url+="-.aspx";
+         window.location=url;
+     }
+    </script>
+</head>
+<body>
+    <!--login开始-->
+<div class="site">
+  <div class="site960">
+    <div class="site-nav">
+      <ul class="quick-login">
+        <h3 id="login">
+        	您好，欢迎来到中国石材网！
+            <a class="blue" href="http://www.stone365.com/login.aspx">[会员登录]</a> 
+            <a class="blue" href="http://www.stone365.com/register.aspx">[免费注册]</a></h3>
+        <h3 id="logined" style="display:none;">
+        	欢迎您，<font id="uname"></font> |
+            <a id="ucenter" href="http://www.stone365.com/User/Index.aspx">我的用户中心</a>|
+            <a href="http://www.stone365.com/logout.aspx">[退出]</a>
+            <font id="logined_user" style="display:none;">企业用户相关内容</font>
+            <font id="logined_person" style="display:none;">个人用户相关内容</font></h3>
+      </ul>
+      <UL class=quick-menu>
+        <LI class="home"><A class="red" href="http://www.stone365.com/offer/caigou.aspx">采购中心</A><span class="home_img"></span></LI>
+        <LI><A href="http://www.stone365.com/about//services_web01.aspx">诚石通</A></LI>
+        <LI class="services menu-item last">
+          <div class=menu> <A id="menu-hd" class=menu-hd href="#" target=_top onmouseover="Top_Div_Over()" onmouseout="Top_Div_Out()">网站导航<B></B></A>
+            <div id="menu-bd" class=menu-bd style="WIDTH: 300px; HEIGHT: auto; _width: auto;" onmouseover="Top_Div_Over()" onmouseout="Top_Div_Out()">
+              <div class=menu-bd-panel>
+                <DL>
+                  <DT><A href="/news/">信息中心</A></DT>
+                  <DD><A href="/news/channel-1.aspx">行业动态</A> 
+                  <A href="/news/channel-39.aspx">协会资讯</A> 
+                  <A href="/news/channel-2.aspx">企业新闻</A> 
+                  <A href="/news/channel-20.aspx">国际新闻</A> 
+                  <A href="/news/channel-32.aspx">国内新闻</A> 
+                  <A href="/news/channel-19.aspx">风云人物</A> 
+                  <A href="/news/maintain.aspx">机械养护</A> 
+                  <A href="/news/machine.aspx">石材机械</A> 
+                  <A href="/news/channel-52.aspx">技术前沿</A> 
+                  <A href="/news/channel-9.aspx">政策法规</A>
+                  <A href="/news/channel-53.aspx">行业标准</A> 
+                  <A href="/news/channel-38.aspx">产品导购</A>
+                  <A href="/news/channel-30.aspx">本网动态</A></DD>
+                </DL>
+                <DL>
+                  <DT><A href="/offer/">交易</A></DT>
+                  <DD><A href="/search/seller_search-offer---------.aspx">供应信息</A> <A href="/search/buyer_search-offer---------.aspx">求购信息</A> <A href="/search/seller_search-service---------.aspx">合作信息</A> <A href="/search/seller_search-investment---------.aspx">招商代理</A> <A href="/offer/price--------.aspx">价格信息</A> </DD>
+                </DL>
+                <DL>
+                  <DT><A href="/exhibition/">展会</A></DT>
+                  <DD><A href="/search/seller_search-exhibition-2--------.aspx">国内展会</A> <A href="/search/seller_search-exhibition-1--------.aspx">国外展会</A> <A href="/news/channel-40.aspx">展会知识</A></DD>
+                </DL>
+                <DL>
+                  <DT><A href="/service/">服务中心</A></DT>
+                  <DD><A href="/about/ad01.aspx">广告服务</A> <A href="/about/help01_01.aspx">帮助中心</A> <A href="http://bbs.c-bm.com/index.asp?boardid=45" target="_blank">论坛</A></DD>
+                </DL>
+                <!--<DL class=last>
+                  <DD><STRONG style="FONT-WEIGHT: bold"><A href="#">更多内容</A></STRONG></DD>
+                </DL>-->
+              </div>
+            </div>
+          </div>
+        </LI>
+        <LI class=cart><A href="/about/services_web11.aspx" rel=nofollow>客服中心</A></LI>
+        <LI class=favorite><a style="cursor:hand" onclick="this.style.behavior='url(#default#homepage)'";this.sethomepage('http://www.stone365.com/')>设为首页</a></LI>
+        <LI class=favorite><a href="#" onClick="window.external.AddFavorite('http://www.stone365.com/', '中国石材网');">加入收藏</a></LI>
+      </UL>
+    </div>
+  </div>
+</div>
+<script>Login2();</script>
+    <!--login结束-->
+    <!--标志&搜索开始-->
+<div class="h_nav">
+  <div class="h_lef"><span><a href="/"  title="中国石材网"><img src="http://www.stone365.com/templates/stone/images/logo.png" width="136" height="60" border="0" /></a></span>
+    <p>持续解读客户需求，不断提升服务价值！</p>
+  </div>
+  <div class="h_rig">
+    <div class="div_wid">
+      <div id="navxx">
+        <ul>
+          <li id="navxx1" class="hover" onclick="xy_SelectSearchMenu(this,'offer','sell');"><a href="javascript:void(0);" >供应</a></li>
+          <li id="navxx2" onclick="xy_SelectSearchMenu(this,'offer','buy');"><a href="javascript:void(0);" target="_self">求购</a></li>
+          <li id="navxx3" onclick="xy_SelectSearchMenu(this,'price','');"><a href="javascript:void(0);" target="_self">价格</a></li>
+          <li id="navxx4" onclick="xy_SelectSearchMenu(this,'news','');"><a href="javascript:void(0);" target="_self">资讯</a></li>
+          <li id="navxx5" onclick="xy_SelectSearchMenu(this,'company','sell');"><a href="javascript:void(0);" target="_self">黄页</a></li>
+          <li id="navxx6" onclick="xy_SelectSearchMenu(this,'exhibition','');"><a href="javascript:void(0);" target="_self">展会</a></li>
+          <li id="navxx7" onclick="xy_SelectSearchMenu(this,'pic','');"><a href="javascript:void(0);" target="_self">图库</a></li>
+          <input type="hidden" id="xy_FlagName" value="offer"/>
+		  <input type="hidden" id="xy_InfoType" value="sell"/>
+        </ul>
+      </div>
+      <div class="fwrx "><span class="orange">服务咨询热线：</span>18958055006 </div>
+    </div>
+    <div class="search_nav">
+      <div id="con_one_1" class="search_kuang" >
+          <div class="imput_kuang">
+            <input type="text" id="txtsearchkey" name="sch_text" class="iText" onkeydown="KeyPrgo();"/>
+          </div>
+          <div class="subbt"  onclick="xy_search();"/>搜 索</div>
+          <div class="clr"></div>
+        <div class="remen">
+        <a href="/search/seller_search-offer--大理石-------.aspx">大理石</a> 
+        <a href="/search/seller_search-offer--花岗岩-------.aspx">花岗岩</a> 
+        <a href="/search/seller_search-offer--砂岩-------.aspx">砂岩</a> 
+        <a href="/search/seller_search-offer--石材-------.aspx">石材</a> 
+        <a href="/search/seller_search-offer--人造石-------.aspx">人造石</a> 
+        <a href="/search/seller_search-offer--文化石-------.aspx">文化石</a>
+        <a href="/search/seller_search-offer--石材养护-------.aspx">石材养护</a> 
+        <a href="/search/seller_search-offer--机械-------.aspx">机械</a> </div>
+      </div>
+      <div class="kuang_right"><a href="http://www.stone365.com/search/advanced_search.aspx" target="_blank">[高级搜索]</a></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    setSearchCurrent();
+    function KeyPrgo(){
+     if(event.keyCode==13) {
+       document.getElementById("txtsearchkey").blur();   
+       xy_search();
+    }
+}
+</script>
+    <!--标志&搜索结束-->
+<div class="Nav">
+        <div class="Nav-lef">
+            <div class="Nav-rig">
+                <div class="Nav-top">
+                    <ul>
+                        <li><span><img src="http://www.stone365.com/templates/stone/images/nav_bg_14.gif" width="2" height="24" /></span><a href="http://www.stone365.com/" target="_self">首 页</a></li>
+                        <li><a href="http://www.stone365.com/news/" target="_parent">信息中心</a></li>
+                        <li class="hover"><a href="http://www.stone365.com/offer/" target="_parent">交易中心</a></li>
+                        <li><span><img src="http://www.stone365.com/templates/stone/images/nav_bg_14.gif" width="2" height="24" /></span><a href="http://www.stone365.com/exhibition/" target="_parent">展会中心</a></li>
+                        <li><span><img src="http://www.stone365.com/templates/stone/images/nav_bg_14.gif" width="2" height="24" /></span><a href="http://www.stone365.com/company/index.aspx" target="_parent">企业黄页</a></li>
+                        <li><span><img src="http://www.stone365.com/templates/stone/images/nav_bg_14.gif" width="2" height="24" /></span><a href="http://www.stone365.com/pic/index.aspx" target="_parent">石材图库</a></li>
+                        <li><a href="http://www.stone365.com/service/">服务中心</a></li>
+                    </ul>
+                    <b><a href="http://www.stone365.com/news/maintain.aspx" target="_blank">石材养护</a> <a href="http://www.stone365.com/news/machine.aspx" target="_blank">机械工具</a></b>
+                </div>
+                <div class="Nav-bot">
+                    <p>
+                        交易中心</p>
+                    <div>
+                        <a href="http://www.stone365.com/search/seller_search-offer---------.aspx">供应信息</a><a href="http://www.stone365.com/search/buyer_search-offer---------.aspx">求购信息</a><a href="http://www.stone365.com/search/seller_search-service---------.aspx">合作信息</a><a href="http://www.stone365.com/search/seller_search-investment---------.aspx">代理信息</a><a href="http://www.stone365.com/offer/price--------.aspx"><span class="yellow">石材报价</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--当前位置开始-->
+    <div class="dq_lz">
+        当前位置：<a href="http://www.stone365.com/" class="dqwz">首页</a> > <a href="/offer/" class="dqwz">交易中心</a> > <a href="http://www.stone365.com/offer/price--------.aspx" class="dqwz">石材报价</a></div>
+    <!--当前位置结束-->
+    <!--content开始-->
+    <div class="ssmain">
+        <div class="ssleft">
+            <!--<div class="key">
+                <div class="key_lef">
+                    <div class="key_rit">
+                        <p>
+                            XXXXXX报价搜索结果</p>
+                        <span>请认准诚石通会员标识</span>
+                    </div>
+                </div>
+            </div>-->
+            <div class="fashion">
+                <table width="98%" height="68" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <form action="">
+                    <tr>
+                        <td width="10%">
+                            <strong class="grey">有效时间</strong>：
+                        </td>
+                        <td width="17%">
+                            <select name="ptTime" id="ptTime">
+                                <option value="">==请选择==</option>
+                                <option value="1">显示今日最新</option>
+                                <option value="3">显示最近3天</option>
+                                <option value="5">显示最近5天</option>
+                                <option value="7">显示最近7天</option>
+                                <option value="15">显示最近15天</option>
+                                <option value="30">显示最近30天</option>
+                                <option value="60">显示最近60天</option>
+                                <option value="180">显示最近半年</option>
+                                <option value="1000">显示所有产品</option>
+                            </select>
+                        </td>
+                        <td width="11%">
+                            <strong class="grey">搜索类型</strong>：
+                        </td>
+                        <td colspan="2">
+                            <div id="supply" style="display: block;">
+                            </div>
+                            <input id="offerTypeId" runat="server" type="hidden" value="" />
+                            <script type="text/javascript">
+            var cla = new ClassType("cla",'offer','supply','offerTypeId');
+            cla.Mode ="select";
+            cla.Init();
+                            </script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong class="grey">地 区</strong>：
+                        </td>
+                        <td width="12%">
+                            <div id="areaByOffer">
+                            </div>
+                            <input type="hidden" id="areaIdByOffer" name="areaIdByOffer" />
+                            <script type="text/javascript">
+            var cla1 = new ClassType("cla1",'area','areaByOffer','areaIdByOffer',2);
+            cla1.Mode ="select";
+            cla1.Init();
+                            </script>
+                        </td>
+                        <td>
+                            <strong class="grey">价格区间</strong>：
+                        </td>
+                        <td width="35%">
+                            <input id="ptPrice1" type="text" size="8"  style="width:60px;"/>
+                            ~
+                            <input id="ptPrice2" type="text" size="8" style="width:60px;"/>
+                            <input type="checkbox" name="checkbox" id="checkbox" />
+                            <span class="grey">诚石通会员</span>
+                        </td>
+                        <td width="40%">
+                            <label>
+                                <input type="text" name="textfield" id="ptKey" value="输入关键字" onfocus="var t='输入关键字';if(this.value==t)this.value='';"
+                                    onblur="var t='输入关键字';if(this.value=='')this.value=t;" />
+                                <input type="button" name="button" id="button" value="筛 选" onclick="searchPt()" />
+                            </label>
+                        </td>
+                    </tr>
+                    </form>
+                </table>
+            </div>
+            <div class="con">
+                <div class="t_list">
+                    <p>
+                        产口名称/发布公司</p>
+                    <p>
+                        规格/报价</p>
+                    <p>
+                        发布日期</p>
+                    </div>
+                <div class="tr_list">
+                     <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384842.aspx' target='_blank'>南阳大理石七彩石价格</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>38000.00元/块</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384441.aspx' target='_blank'>河南芝麻白花岗岩厂家</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>60.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384432.aspx' target='_blank'>河南花岗岩路沿石价格</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>1900.00元/立方</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384815.aspx' target='_blank'>河南花岗岩石桌石凳批发</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>1000.00元/套</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384776.aspx' target='_blank'>河南晚霞红石凳模型</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>1000.00元/套</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384249.aspx' target='_blank'>供应河南天然大理石品牌</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>90.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1385270.aspx' target='_blank'>水冲石厂家水冲石批发</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>150.00元/</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384849.aspx' target='_blank'>南阳晚霞红大型景观石厂家</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>55000.00元/块</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384228.aspx' target='_blank'>供应河南大理石荒料批发价格</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>2300.00元/立方</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1338380.aspx' target='_blank'>河石 鹅卵石 水冲石</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>150.00元/吨</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384874.aspx' target='_blank'>南阳自然景石安装价格</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>550.00元/吨</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384428.aspx' target='_blank'>河南芝麻灰花岗岩路沿石批发</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>1900.00元/立方</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1384271.aspx' target='_blank'>供应米黄玉大理石板材批发价格</a></strong><br /><span class='gey'>公司：</span>南召银河石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>400.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1336926.aspx' target='_blank'>G654芝麻黑小方块价格</a></strong><br /><span class='gey'>公司：</span>长泰县石仓石业有限公司</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>面议</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1336924.aspx' target='_blank'>G654芝麻黑花岗岩路沿石价...</a></strong><br /><span class='gey'>公司：</span>长泰县石仓石业有限公司</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>面议</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-1338002.aspx' target='_blank'>G654芝麻灰小方块价格</a></strong><br /><span class='gey'>公司：</span>长泰县石仓石业有限公司</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>面议</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-203926.aspx' target='_blank'>五莲花</a></strong><br /><span class='gey'>公司：</span>五莲县街头镇振鲁石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>35.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-72360.aspx' target='_blank'>机刨板</a></strong><br /><span class='gey'>公司：</span>五莲县街头镇振鲁石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>33.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-105926.aspx' target='_blank'>五莲花--五莲石材</a></strong><br /><span class='gey'>公司：</span>五莲县街头镇振鲁石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>31.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-71533.aspx' target='_blank'>五莲花,五莲红</a></strong><br /><span class='gey'>公司：</span>五莲县街头镇振鲁石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>35.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-100510.aspx' target='_blank'>山东灰麻</a></strong><br /><span class='gey'>公司：</span>五莲县街头镇振鲁石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>45.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div> <div class='start_list whitebg'><ul> <li><span class='gey'>产品：</span><strong><a href='../../search/sell-offer-100741.aspx' target='_blank'>山东石材-五莲花</a></strong><br /><span class='gey'>公司：</span>五莲县街头镇振鲁石材厂</li> <li class='stlist1_A'><br /><span class='gey'>报价：</span>31.00元/平米</li> <li class='stlist2_A'><span class='gey'>2012-4-1</span></li> </ul></div>
+                    <div class="fy">
+                        <div class="fenpage1">
+                            <div class='fenpage1'><span class='fon_t1'>共<span class='red_red'><strong>245</strong></span>页，每页<span class='red_red'><strong>22</strong></span>条记录 [上一页]<span class="pagenum"> <span class='This_span'>1</span>  <a href='price--------2.aspx'>2</a> <a href='price--------3.aspx'>3</a> <a href='price--------4.aspx'>4</a> <a href='price--------5.aspx'>5</a> <a href='price--------6.aspx'>6</a> <a href='price--------7.aspx'>7</a> <a href='price--------8.aspx'>8</a> <a href='price--------9.aspx'>9</a> <a href='price--------10.aspx'>10</a></span>[<a href='price--------2.aspx'>下一页</a>]</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr">
+                </div>
+            </div>
+        </div>
+        <div class="ssright">
+            <span> <img src="http://www.stone365.com/templates/stone/images/fb_07.gif" width="250" height="50" /></span>
+            <div class="gjhy">
+                <div class="gj_bg">
+                    <div class="gj_title">
+                        诚石通企业</div>
+                    <div class="jjlist">
+                        <ul><li><a href="http://zsr7958570.stone365.com/" class="blue1 font14">福鼎市白琳新创石材厂</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：福鼎工厂主要供应G684福鼎黑-磨光 </span> &nbsp;<a class="green_1" href="http://zsr7958570.stone365.com" target="_blank">http://zsr7958570.stone365.com</a></li><li><a href="http://scshayan.stone365.com/" class="blue1 font14">四川自贡市祥磊砂岩有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：四川祥磊砂岩有限公司地处四川省自 </span> &nbsp;<a class="green_1" href="http://scshayan.stone365.com" target="_blank">http://scshayan.stone365.com</a></li><li><a href="http://myhd.stone365.com/" class="blue1 font14">米易县恒达石材厂</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：米易县恒达石材厂从事花岗石板材的 </span> &nbsp;<a class="green_1" href="http://myhd.stone365.com" target="_blank">http://myhd.stone365.com</a></li><li><a href="http://fhstone2010.stone365.com/" class="blue1 font14">福建省惠安峰华石业有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：福建峰华石业有限公司 (石雕精品专 </span> &nbsp;<a class="green_1" href="http://www.fhsy.cn" target="_blank">http://www.fhsy.cn</a></li><li><a href="http://scgjstone.stone365.com/" class="blue1 font14">四川国建石材有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：四川国建石材公司坐落于四川省荥经 </span> &nbsp;<a class="green_1" href="http://scgjstone.stone365.com/" target="_blank">http://scgjstone.stone365.com/</a></li><li><a href="http://fjtfsc.stone365.com/" class="blue1 font14">福建省南安市天福石材有限公</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：福建省南安市天福石材有限公司创建 </span> &nbsp;<a class="green_1" href="http://fjtfsc.stone365.com/" target="_blank">http://fjtfsc.stone365.com/</a></li><li><a href="http://dadongstone.stone365.com/" class="blue1 font14">麻城大东石业有限公司（原龟</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：    麻城市大东石材厂，是一家集矿 </span> &nbsp;<a class="green_1" href="http://dadongstone.stone365.com" target="_blank">http://dadongstone.stone365.com</a></li><li><a href="http://pengyestone.stone365.com/" class="blue1 font14">揭阳市鹏业石材有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：揭阳市鹏业石材有限公司创建于&am </span> &nbsp;<a class="green_1" href="http://pengyestone.stone365.com" target="_blank">http://pengyestone.stone365.com</a></li><li><a href="http://15960699155.stone365.com/" class="blue1 font14">福建龙海市三大石材有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：     福建龙海市三大石材有限公司 </span> &nbsp;<a class="green_1" href="http://15960699155.stone365.com" target="_blank">http://15960699155.stone365.com</a></li><li><a href="http://A19730922.stone365.com/" class="blue1 font14">广东润泽石材有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：闰泽石材厂是以专营天然大理石海贝 </span> &nbsp;<a class="green_1" href="http://a19730922.stone365.com" target="_blank">http://a19730922.stone365.com</a></li><li><a href="http://jingsheng.stone365.com/" class="blue1 font14">河北承德竞升石材厂</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：承德竞升实业有限公司坐落于世界著 </span> &nbsp;<a class="green_1" href="http://jingsheng.stone365.com" target="_blank">http://jingsheng.stone365.com</a></li><li><a href="http://ptxs.stone365.com/" class="blue1 font14">莆田市秀屿区东桥锈石石材石</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：莆田市秀屿区东桥锈石石材石雕加工 </span> &nbsp;<a class="green_1" href="http://ptxs.stone365.com" target="_blank">http://ptxs.stone365.com</a></li><li><a href="http://hhsclbj.stone365.com/" class="blue1 font14">四川省荥经县辉煌石材厂</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：我厂属大型三合红花岗石生产企业， </span> &nbsp;<a class="green_1" href="http://hhsclbj.stone365.com" target="_blank">http://hhsclbj.stone365.com</a></li><li><a href="http://jinfengys.stone365.com/" class="blue1 font14">江西金枫玉石有限公司</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：江西金枫玉石有限公司是专业生产装 </span> &nbsp;<a class="green_1" href="http://www.goldenmaple.com.cn" target="_blank">http://www.goldenmaple.com.cn</a></li><li><a href="http://xsshiye.stone365.com/" class="blue1 font14">山东省汶上县祥盛石业有限公</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：山东省汶上县祥盛石业有限公司，坐 </span> &nbsp;<a class="green_1" href="http://xsshiye.stone365.com" target="_blank">http://xsshiye.stone365.com</a></li><li><a href="http://kangyuanshicai.stone365.com/" class="blue1 font14">山东汶上康源石材厂</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：     山东省汶上康源石材厂，是一 </span> &nbsp;<a class="green_1" href="http://kangyuanshicai.stone365.com " target="_blank">http://kangyuanshicai.stone365.com </a></li><li><a href="http://dexinshicai888.stone365.com/" class="blue1 font14">河北临城德信石材厂</a><img src="http://www.stone365.com/templates/stone/images/big_grade_2.gif" width="18" height="18" /> &nbsp;<span class="hui">简介：德信石材厂简介
+河北德信石材厂创 </span> &nbsp;<a class="green_1" href="http://dexinshicai888.stone365.com" target="_blank">http://dexinshicai888.stone365.com</a></li></ul>
+                    </div>
+                </div>
+            </div>
+            <span>
+                <img src="http://www.stone365.com/templates/stone/images/fb_07.gif" width="250"
+                    height="50" /></span>
+            <div class="gjhy">
+                <div class="gj_bg">
+                    <div class="gj_title">
+                        最新动态</div>
+                    <div class="xxlist">
+          <ul><li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19929-214.htm" title="浙江一石沈立松：创造机会，做石材行业最适合环节赢得未来" target="_blank">浙江一石沈立松：创造机会，做</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19928-343.htm" title="贵州省石材工业协会成立暨第一次会员代表大会在贵阳举行" target="_blank">贵州省石材工业协会成立暨第一</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19927-076.htm" title="市委党校新校区建设项目（钢结构、玻璃幕墙及干挂石材）工程施工及监理招标公告" target="_blank">市委党校新校区建设项目（钢结</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19926-861.htm" title="11号楼、12号楼、13号楼裙楼石材幕墙、玻璃幕墙装饰工程施工招标公告" target="_blank">11号楼、12号楼、13号楼裙楼石</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19925-149.htm" title="党校古田教学点学员楼装修工程施工招标公告" target="_blank">党校古田教学点学员楼装修工程</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19924-070.htm" title="长五东路改造人行道麻石材料招标采购公告" target="_blank">长五东路改造人行道麻石材料招</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19923-542.htm" title="迈皋桥创业园地块经济适用住房项目02地块外墙干挂石材幕墙工程招标公告" target="_blank">迈皋桥创业园地块经济适用住房</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19922-435.htm" title="关于举办石材行业中青年企业家强化培训班的预通知" target="_blank">关于举办石材行业中青年企业家</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19921-459.htm" title="新疆石材等建材产品出口额6.13亿美元 同比增长208.40%" target="_blank">新疆石材等建材产品出口额6.1</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19920-499.htm" title="玉石骨灰盒售11380 市场造价2000" target="_blank">玉石骨灰盒售11380 市场造价2</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-04/info-19919-503.htm" title="中国石材协会：中泰商务午餐会通知" target="_blank">中国石材协会：中泰商务午餐会</a> <span class="gey">[04.01]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-03/info-19918-197.htm" title="徐永飞：昆山五洲石业的走出去发展战略" target="_blank">徐永飞：昆山五洲石业的走出去</a> <span class="gey">[03.31]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-03/info-19917-276.htm" title="武川县召开石材工作座谈会" target="_blank">武川县召开石材工作座谈会</a> <span class="gey">[03.31]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-03/info-19916-595.htm" title="天长市两河景观建设二期（IV、V标段）工程石材采购询价公告" target="_blank">天长市两河景观建设二期（IV、</a> <span class="gey">[03.31]</span></li>
+            <li><span class="gey">·</span><a href="http://www.stone365.com/news/2012-03/info-19915-609.htm" title="东乡县人民医院新住院部大楼地砖、墙砖、花岗岩等采购公告" target="_blank">东乡县人民医院新住院部大楼地</a> <span class="gey">[03.31]</span></li>
+               </ul>
+        </div>
+                </div>
+            </div>
+            <div class="gjhy">
+                <div class="gj_bg">
+                    <div class="gj_title">
+                        最新加入</div>
+                     <div class="xxlist">
+          <ul><li><span class="gey">·</span><a href="http://makeyouyou.stone365.com/" title="北京惠源石业有限公司" target="_blank">北京惠源石业有限公司</a> <span class="gey">[04.01]</span></li><li><span class="gey">·</span><a href="http://zyscy.stone365.com/" title="中亿石材" target="_blank">中亿石材</a> <span class="gey">[04.01]</span></li><li><span class="gey">·</span><a href="http://heir285944.stone365.com/" title="山东省嘉祥县传富石材有限公司" target="_blank">山东省嘉祥县传富石材有限公司</a> <span class="gey">[03.28]</span></li><li><span class="gey">·</span><a href="http://weibing99599.stone365.com/" title="江西九江盛祥石材有限公司" target="_blank">江西九江盛祥石材有限公司</a> <span class="gey">[03.26]</span></li><li><span class="gey">·</span><a href="http://mqyxb110.stone365.com/" title="杭州尚诺水洗石加工厂" target="_blank">杭州尚诺水洗石加工厂</a> <span class="gey">[03.24]</span></li><li><span class="gey">·</span><a href="http://yong32.stone365.com/" title="嘉郓雕塑艺术有限公司" target="_blank">嘉郓雕塑艺术有限公司</a> <span class="gey">[03.21]</span></li><li><span class="gey">·</span><a href="http://991782035.stone365.com/" title="聚鑫石材" target="_blank">聚鑫石材</a> <span class="gey">[03.20]</span></li><li><span class="gey">·</span><a href="http://wm2356956182.stone365.com/" title="平邑福泰工艺石材雕刻有限公司" target="_blank">平邑福泰工艺石材雕刻有限公司</a> <span class="gey">[03.20]</span></li><li><span class="gey">·</span><a href="http://2682300400.stone365.com/" title="鲁林异型石材厂" target="_blank">鲁林异型石材厂</a> <span class="gey">[03.19]</span></li><li><span class="gey">·</span><a href="http://khatsho.stone365.com/" title="日照石头传奇坊" target="_blank">日照石头传奇坊</a> <span class="gey">[03.18]</span></li><li><span class="gey">·</span><a href="http://blueystelly.stone365.com/" title="五莲县万刚石材厂" target="_blank">五莲县万刚石材厂</a> <span class="gey">[03.13]</span></li><li><span class="gey">·</span><a href="http://hnsy.stone365.com/" title="鸿南石材" target="_blank">鸿南石材</a> <span class="gey">[03.12]</span></li><li><span class="gey">·</span><a href="http://776702595.stone365.com/" title="莱州市秋鑫石材厂" target="_blank">莱州市秋鑫石材厂</a> <span class="gey">[03.11]</span></li><li><span class="gey">·</span><a href="http://shaowen.stone365.com/" title="磊丰石材厂" target="_blank">磊丰石材厂</a> <span class="gey">[03.08]</span></li><li><span class="gey">·</span><a href="http://lz3158.stone365.com/" title="莱州市胜达石材有限公司" target="_blank">莱州市胜达石材有限公司</a> <span class="gey">[03.07]</span></li>          </ul>
+        </div>
+                </div>
+            </div>
+ <!--           <p>
+                希望获得更精准的供应信息？<br />
+                欢迎来电咨询：18958055770</p>
+            <div class="jr">
+                <div class="gj_bg">
+                    <div class="gj_ti">
+                        加入中国石材网，开始做生意！</div>
+                    <div class="gjhylist">
+                        <p>
+                            我们会免费为您推广产品，免费宣传公司 您可以自由查找买家信息，结交商业伙伴 想开展网上贸易，提升销售量吗？
+                        </p>
+                        <span>
+                            <img src="http://www.stone365.com/templates/stone/images/jr_17.gif" width="130"
+                                height="35" /></span>
+                        <p>
+                            想开展网上贸易，提升销量吗？<br />
+                            推荐你加入诚石通：</p>
+                        <span>
+                            <img src="http://www.stone365.com/templates/stone/images/jr_20.gif" width="130"
+                                height="35" /></span>
+                        <p>
+                            服务热线：18958055770</p>
+                    </div>
+                </div>
+            </div>-->
+            <div class="clr">
+            </div>
+        </div>
+    </div>
+    <div class="clr">
+    </div>
+<div class="clr"></div>
+<div class="bottom">
+  <p><span class="blue_one">兄弟网站：</span> 
+    <a href="http://www.c-bm.com/" target="_blank" class="bota">中国建材网</a>&nbsp;
+    <a href="http://www.ccement.com/" target="_blank" class="bota">中国水泥网</a>&nbsp;
+    <a href="http://www.cementchina.net/" target="_blank" class="bota">cement</a>&nbsp;
+    <a href="http://www.cbmnet.cn/employ.aspx" target="_blank" class="bota">中国水泥网人才频道</a>&nbsp;
+    <a href="http://bbs.ccement.com/" target="_blank" class="bota">中国水泥论坛</a>&nbsp;
+    <a href="http://www.taoci365.com/" target="_blank" class="bota">中国陶瓷网</a>&nbsp;
+    <a href="http://www.concrete365.com/" target="_blank" class="bota">中国混凝土与水泥制品网</a>&nbsp;
+    <a href="http://www.cbtia.com/" target="_blank" class="bota">中国砖瓦网</a>&nbsp;
+    <a href="http://www.cieema.cn/" target="_blank" class="bota">中国绝热节能材料网</a>
+    <A href="http://baijia.ccement.com/" target="_blank">水泥百家</A>
+    <br />
+  <a href="/about/help05_02.aspx">关于中国石材网</a> 
+  <a href="/about/services_web11.aspx"> 联系我们 </a> 
+  <a href="/about/ad01.aspx"> 广告服务</a> 
+  <a href="/about/links.aspx"> 友情链接 </a> 
+  <a href="/about/help01_01.aspx"> 网站指南</a> 
+  <a href="/about/help05_01.aspx"> 关于我们</a> 
+  <a href="/about/index.aspx"> 诚石通服务</a> <br />
+    中国石材网 版权所有@2004-2011 本站法律顾问：永鼎律师事务所<br />
+    经营许可证编号：027202001042000202　ICP证：浙B2-20040232<br />
+    <script language="javascript" type="text/javascript" src="http://js.users.51.la/16524.js"></script><noscript>
+    <a href="http://www.51.la/?16524" target="_blank"><img alt="我要啦免费统计" src="http://img.users.51.la/16524.asp" style="border:none" /></a>
+    </noscript><img src="http://www.chinacements.com/images/biaoshi1.gif" alt="" /><img src="http://www.ccement.com/images/xinyong.gif" alt="信用评价AA级信用企业" /><a href="http://www.pingpinganan.gov.cn/web/index.aspx" target="_blank"><img height="53" src="http://www.stone365.com/common/images/gt.gif" width="53" border="0" /></a><a href="http://www.pingpinganan.gov.cn/web/index.aspx" target="_blank"><img height="53" src="http://www.stone365.com/common/images/pp.gif" width="33" border="0" /></a><a href="http://www.pingpinganan.gov.cn/web/index.aspx" target="_blank"><img height="53" src="http://www.stone365.com/common/images/aa.gif" width="33" border="0" /></a>
+    </p>
+</div>
+    <input type="hidden" id="hidCls" value="" />
+    <input type="hidden" id="hidPrice1" value="" />
+    <input type="hidden" id="hidPrice2" value="" />
+    <input type="hidden" id="hidTime" value="" />
+    <input type="hidden" id="hidKey" value="" />
+    <input type="hidden" id="hidArea" value="" />
+    <input type="hidden" id="hidGrade" value="" />
+    <script type="text/javascript">
+        var cls=$F("hidCls");
+        var price1=$F("hidPrice1");
+        var price2=$F("hidPrice2");
+        var time=$F("hidTime");
+        var key=$F("hidKey");
+        var area=$F("hidArea");
+        var grade=$F("hidGrade");
+        if(grade == "1")
+        {
+            $("checkbox").checked=true;
+        }else{
+            $("checkbox").checked=false;
+        }
+        if( price1 != "" )
+        {
+            document.getElementById("ptPrice1").value=price1;
+        }
+        if(price2 != "")
+        {
+            document.getElementById("ptPrice2").value=price2;
+        }
+        if(time != "")
+        {
+            var objTime=$("ptTime");
+            for(var i=0;i<objTime.options.length;i++)
+            {
+                if(objTime.options[i].value==time)
+                {
+                    objTime.options[i].selected="true";
+                }
+            }
+        }
+        if(key != "")
+        {
+            document.getElementById("ptKey").value=key;
+        }
+    </script>
+</body>
+</html>
